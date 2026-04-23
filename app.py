@@ -4,6 +4,8 @@ import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
+
 # Load models
 model_leg = joblib.load("legendary_model.pkl")
 model_type = joblib.load("type_model.pkl")
